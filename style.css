@@ -31,6 +31,8 @@ form{
     margin: 2rem 0 2rem 0;
 }
 
+
+
 form select,button,input{
     width:100%;
     border: none;
@@ -97,4 +99,27 @@ form button{
 .exchange{  
     background-color: #DDF8E8;
     border: none;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 1rem;
+    }
+
+    .dropdown {
+        flex-direction: column;
+    }
+
+    .select-container {
+        max-width: 100%;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    .msg {
+        font-size: 1rem;
+    }
 }
