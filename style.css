@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #946E83;
+}
+.amount{
+    text-align: center;
+    font-size: larger;
+}
+.heading{
+    text-align: center;
+}
+
+.container{
+    background-color: #DDF8E8;
+    border: 1px solid black;
+    margin: 10vh;
+    padding: 2rem;
+    border-radius: 1rem;
+    
+}
+form{
+    margin: 2rem 0 2rem 0;
+}
+
+form select,button,input{
+    width:100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #DDF8E8;
+
+}
+
+
+form input{
+    border: 1px solid lightblue;
+    font-size: 1rem;
+    height: 3rem;
+    background-color:whitesmoke;
+}
+.dropdown{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 10px;
+    background-color: #DDF8E8;
+    
+}
+
+.select-container img{
+    max-width: 2rem;
+    font-size: small;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightblue;
+    padding: 0 10px ;
+}
+
+.msg{
+    margin: 2rem 0;
+    text-align: center;
+    
+}
+
+form button{
+    height: 50px;
+    background-color: #F5DFBB;
+    border: 1px solid lightblue;
+}
+
+.submit {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.submit:hover {
+    transform: scale(1.05);
+    background-color: #4caf50;
+    color: white;
+}
+
+.exchange{  
+    background-color: #DDF8E8;
+    border: none;
+}
