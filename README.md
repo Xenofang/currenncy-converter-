@@ -65,7 +65,7 @@ https://2024-03-06.currency-api.pages.dev
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/currency-converter.git
+   https://xenofang.github.io/currenncy-converter-/
    ```
 2. Open `index.html` in your browser
 3. Start converting currencies 🎉
